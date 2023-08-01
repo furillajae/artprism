@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #121212;
+}
+
+body {
+    font-family: 'NanumSquareNeo';
+    font-size: 18px;
+    line-height: 28px;
+    color: #121212;
+    min-width: 1320px;
+}
+
+/* header */
+/* .header2{
+    position: fixed;
+    top:0;
+    left: 50%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);  
+} */
+.header2 a img{
+    transform: scale(0.6, 0.6);
+}
+
+
+header {
+    width: 1320px;
+   margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header a img {
+    margin: 20px 0;
+    transition: 1s;
+}
+
+.nav {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: flex;
+    justify-content: center;
+}
+
+.nav li a {
+    padding: 20px 40px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+/* 전시 배너 */
+.banner1 {
+    margin-bottom: 100px;
+}
+
+.banner1 a img {
+    width: 100%;
+}
+
+/* 프로그램 */
+.program {
+    width: 1320px;
+    margin: auto;
+    margin-bottom: 100px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.program h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.program div {
+    transition: 1s;
+    flex: 1;
+    height: 400px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.program .active {
+    flex: 2;
+    flex-direction: row;
+}
+
+/* 프로그램 1 */
+.program .p1 {
+    background: url(../images/pr1.png) no-repeat;
+}
+
+.program .p1 h2 {
+    color: #fff;
+    text-align: left;
+}
+
+.program .p1 h3 {
+    color: #fff;
+}
+
+/* 프로그램 2 */
+.program .p2 {
+    background: url(../images/pr2.png) no-repeat;
+    margin: 0 15px;
+}
+
+.program .p2 h2 {
+    color: #fff;
+    text-align: left;
+
+}
+
+.program .p2 h3 {
+    color: #fff;
+}
+
+/* 프로그램 3 */
+.program .p3 {
+    background: url(../images/pr3.png) no-repeat;
+}
+
+.program .p3 h2 {
+    color: #fff;
+    text-align: left;
+
+}
+
+.program .p3 h3 {
+    color: #fff;
+}
+
+/* 아트프리즘 배너 */
+.back_banner {
+    background: url(../images/banner_artprism.jpg) no-repeat center bottom fixed;
+    height: 450px;
+    border-top: 5px solid #c6c6c6;
+    border-bottom: 5px solid #c6c6c6;
+    box-shadow: 10px 10px 50px rgba(51, 51, 51, 0.2) inset, -10px -10px 50px rgba(51, 51, 51, 0.2) inset;
+    margin-bottom: 100px;
+}
+
+/* 미술가게 */
+.artshop {
+    width: 1320px;
+    margin: auto;
+    margin-bottom: 100px;
+    border-bottom: #c6c6c6 1px solid;
+}
+
+.artshop h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* 아트레터+visit */
+.lnv {
+    display: flex;
+    width: 1320px;
+    margin: auto;
+    margin-bottom: 150px;
+    justify-content: space-between;
+
+}
+
+/* 아트레터 */
+
+.artletter {
+    width: 960px;
+    height: 420px;
+    background: url(../images/artletter.png) no-repeat 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.artletter h2 {
+    color: #fff;
+}
+
+.artletter h1 {
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.artletter h1 span {
+    font-size: 20px
+}
+
+/* visit */
+.visit {
+    width: 290px;
+    padding: 30px;
+    background-color: #c6c6c6;
+    border-radius: 0 52px;
+    box-sizing: border-box;
+}
+
+.visit h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.visit p {
+    padding-bottom: 20px;
+}
+
+/* 공간 소개 */
+.space {
+    margin-bottom: 150px;
+}
+
+.space h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.space .space_img {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.space_img img {
+    transition: 1s;
+}
+
+.space_img img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+/* footer */
+footer {
+    height: 640px;
+    background: url(../images/background.png) no-repeat 100%;
+    padding-top: 220px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.artprism {
+    width: 1320px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.service {
+    width: 1320px;
+    margin: auto;
+}
+
+/* logo play */
+.marquee {
+    width: 100%;
+    height: 74px;
+    padding: 10px 0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.marquee div {
+    width: 300%;
+    height: 100%;
+    background: url(../images/group.png) repeat-x;
+    position: absolute;
+    animation: marquee 14s linear infinite;
+    background-size: 2000px;
+}
+
+@keyframes marquee {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -200%;
+    }
+}
