@@ -58,7 +58,10 @@ header a img {
     font-size: 26px;
     font-weight: 500;
 }
-
+.nav li a:hover{
+    color: lightseagreen;
+    font-weight: bold;
+}
 /* 전시 배너 */
 .banner1 {
     margin-bottom: 100px;
@@ -153,7 +156,7 @@ header a img {
 
 /* 아트프리즘 배너 */
 .back_banner {
-    background: url(../images/banner_artprism.jpg) no-repeat center bottom fixed;
+    background: url(../images/banner_artprism.png) no-repeat center bottom fixed;
     height: 450px;
     border-top: 5px solid #c6c6c6;
     border-bottom: 5px solid #c6c6c6;
